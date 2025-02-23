@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 57.5rem;
+    margin: 0 auto;
+    padding: 7rem 0;
+    background: #1B244A;
+}
+
+.score-btn-wrapper {
+    display: flex;
+    gap: 1rem;
+    color: #9AABD8;
+}
+
+.score-btn-wrapper p {
+    border: 0.2rem solid #9AABD8;
+    border-radius: 0.5rem;
+    padding: 0.65rem 0.95rem;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 3.6rem;
+}
+
+.score-container {
+    background-color: #000;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    height: 12rem;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 9rem;
+    line-height: 12.7rem;
+    text-align: center;
+    height: 12rem;
+    padding-top: 0.5rem;
+}
